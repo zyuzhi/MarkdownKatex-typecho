@@ -42,9 +42,9 @@ Have Fun Latex.
 - ParseDown使用1.6版本
 - ParseDown-Extra使用0.7版本
 
-## Know Issue
-- 编辑时KaTeX预览异常
-- 无序序号中显示
+## TODO
+1. 后台配置Katex加载的CDN地址
+2. 后台配置是否启用highlight.js渲染代码
 
 ## License
 > Copyright (c) 2018 zyuzhi  
