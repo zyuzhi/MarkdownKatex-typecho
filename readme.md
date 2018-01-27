@@ -32,7 +32,7 @@ typecho渲染效果如下所示。
 
 更新时需要 禁用插件→更新插件→启用插件。
 
-Have Fun Latex.
+Have Fun With Latex.
 
 ## Features
 - 常用MarkDown语法支持继承自[ParseDown](https://github.com/erusev/parsedown)和[ParseDown-Extra](https://github.com/erusev/parsedown-extra)，语法支持详情请戳→[http://parsedown.org/tests/](http://parsedown.org/tests/)
@@ -42,9 +42,9 @@ Have Fun Latex.
 - ParseDown使用1.6版本
 - ParseDown-Extra使用0.7版本
 
-## Know Issue
-- 编辑时KaTeX预览异常
-- 无序序号中显示
+## TODO
+1. 后台配置Katex加载的CDN地址
+2. 后台配置是否启用highlight.js渲染代码
 
 ## License
 > Copyright (c) 2018 zyuzhi  
