@@ -38,13 +38,19 @@ Have Fun With Latex.
 - 常用MarkDown语法支持继承自[ParseDown](https://github.com/erusev/parsedown)和[ParseDown-Extra](https://github.com/erusev/parsedown-extra)，语法支持详情请戳→[http://parsedown.org/tests/](http://parsedown.org/tests/)
 - 支持内联公式（`$`）和独立公式（`$$`）
 - 兼容highlight.js对代码块的高亮
-- Katex使用0.8.3版本，使用的BOOTCSS的JS库CDN
+- Katex使用0.10.0版本，使用的BOOTCSS的JS库CDN
 - ParseDown使用1.6版本
 - ParseDown-Extra使用0.7版本
 
 ## TODO
 1. 后台配置Katex加载的CDN地址
 2. 后台配置是否启用highlight.js渲染代码
+
+
+## ChangeLog
+
+### 2018-11-03
+- 将`KaTeX`版本由`0.8.3`更新至`0.10.0`，以解决由之前版本导致的bug和问题
 
 ## License
 > Copyright (c) 2018 zyuzhi  
