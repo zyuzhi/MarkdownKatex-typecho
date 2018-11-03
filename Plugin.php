@@ -63,12 +63,12 @@ class MarkdownKatex_Plugin implements Typecho_Plugin_Interface
 
     public static function footer($content) {
         ?>
-<link href="//cdn.bootcss.com/KaTeX/0.8.3/katex.min.css" rel="stylesheet">
-<script src="//cdn.bootcss.com/KaTeX/0.8.3/katex.min.js">
+<link href="//cdn.bootcss.com/KaTeX/0.10.0/katex.min.css" rel="stylesheet">
+<script src="//cdn.bootcss.com/KaTeX/0.10.0/katex.min.js">
 </script>
 <script>
-    $('katex-inline').each(function(){t=$(this);katex.render(t.text(),t[0],{displayMode:false});});
-    $('katex').each(function(){t=$(this);katex.render(t.text(),t[0],{displayMode:true});});
+$('katex-inline').each(function(i,e){t=$(this);h=t.html();try{katex.render(t.text(),e,{displayMode:false,throwOnError:false});}catch(b){t.html(h);console.warn('parse ' + h + ' error:' + b)}});
+$('katex').each(function(i,e){t=$(this);h=t.html();try{katex.render(t.text(),e,{displayMode:true,throwOnError:false});}catch(b){t.html(h);console.warn('parse ' + h + ' error:' + b)}});
 </script>
 <?php
     }
