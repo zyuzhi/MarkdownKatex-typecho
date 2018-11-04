@@ -28,7 +28,7 @@ typecho渲染效果如下所示。
 
 ## 插件安装
 
-从[这里](https://github.com/zyuzhi/MarkdownKatex-typecho/archive/master.zip)下载zip包，解压并将文件夹名称重命名为`MardownKatex`，并在后台插件管理中启用即可。
+从[这里](https://github.com/zyuzhi/MarkdownKatex-typecho/archive/master.zip)下载zip包，解压并将文件夹名称重命名为`MarkdownKatex`，并在后台插件管理中启用即可。
 
 更新时需要 禁用插件→更新插件→启用插件。
 
